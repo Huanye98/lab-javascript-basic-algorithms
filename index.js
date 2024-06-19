@@ -1,8 +1,8 @@
 // Iteration 1: Names and Input
-const hacker1 = "Huanye"
+const hacker1 = "luis"
 console.log(`The driver's name is ${hacker1}`)
 
-const hacker2 = "SheylaGermán"
+const hacker2 = "luis"
 console.log(`The navigator's name is ${hacker2}`)
 
 
@@ -45,10 +45,10 @@ for (let x = 0; x< hacker2.length;x++){
     if   (hacker1[x] == hacker2[x]){
      continue
     }else if(hacker1[x] < hacker2[x]){
-        console.log("el lexicographic order de hacker2 es más grande")
+        console.log(" hacker1 este va primero"+ hacker1)
         break
     }else if(hacker1[x] > hacker2[x]){
-        console.log("el lexicographic order de hacker1 es más grande")
+        console.log("hacker2 este va primero" + hacker2)
         break
     }
  
